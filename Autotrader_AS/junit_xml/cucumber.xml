@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<testsuite failures="1" name="cucumber.runtime.formatter.JUnitFormatter" skipped="0" tests="1" time="0">
+<testcase classname="Autotrader Advanced Search" name="Autotrader BMW result cerification" time="0">
+<failure message="The scenario has pending or undefined step(s)"><![CDATA[Given open browser..........................................................undefined
+Then navigate to URL........................................................undefined
+Then Verify all the links are present.......................................undefined
+Then Verify Search button is present........................................undefined
+Then Verify Drop-Downs are present..........................................undefined
+Then Click on Advanced Search...............................................undefined
+Then User enters zipcode....................................................undefined
+Then User selects Certified option under Condition..........................undefined
+Then User selects Convertible option under Style............................undefined
+Then User sets the desired from and to years under Years....................undefined
+And User selects the make of the car under Make, Model & Trim...............undefined
+Then User clicks on the Search button.......................................undefined
+Then Assert that user only sees BMW cars....................................undefined
+And log total number of cars................................................undefined
+Then close the browser......................................................undefined
+]]></failure>
+</testcase>
+</testsuite>

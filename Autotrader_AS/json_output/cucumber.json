@@ -1,0 +1,188 @@
+[
+  {
+    "line": 1,
+    "elements": [
+      {
+        "line": 3,
+        "name": "Open a blank browser",
+        "description": "",
+        "type": "background",
+        "keyword": "Background",
+        "steps": [
+          {
+            "result": {
+              "status": "undefined"
+            },
+            "line": 4,
+            "name": "open browser",
+            "match": {},
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "status": "undefined"
+            },
+            "line": 5,
+            "name": "navigate to URL",
+            "match": {},
+            "keyword": "Then "
+          }
+        ]
+      },
+      {
+        "line": 7,
+        "name": "Autotrader BMW result cerification",
+        "description": "",
+        "id": "autotrader-advanced-search;autotrader-bmw-result-cerification",
+        "type": "scenario",
+        "keyword": "Scenario",
+        "steps": [
+          {
+            "result": {
+              "status": "undefined"
+            },
+            "comments": [
+              {
+                "line": 9,
+                "value": "#Given User is on the homepage of Autotrader"
+              },
+              {
+                "line": 10,
+                "value": "#When Title of the homepage is New Cars, Used Cars - Find Cars for Sale and Reviews at Autotrader"
+              }
+            ],
+            "line": 11,
+            "name": "Verify all the links are present",
+            "match": {},
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "status": "undefined"
+            },
+            "line": 12,
+            "name": "Verify Search button is present",
+            "match": {},
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "status": "undefined"
+            },
+            "line": 13,
+            "name": "Verify Drop-Downs are present",
+            "match": {},
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "status": "undefined"
+            },
+            "line": 14,
+            "name": "Click on Advanced Search",
+            "match": {},
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "status": "undefined"
+            },
+            "comments": [
+              {
+                "line": 15,
+                "value": "#When Title of the Advanced Search page is Search for Cars For Sale Online - Find a Car at Autotrader"
+              }
+            ],
+            "line": 16,
+            "name": "User enters zipcode",
+            "match": {},
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "status": "undefined"
+            },
+            "line": 17,
+            "name": "User selects Certified option under Condition",
+            "match": {},
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "status": "undefined"
+            },
+            "line": 18,
+            "name": "User selects Convertible option under Style",
+            "match": {},
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "status": "undefined"
+            },
+            "line": 19,
+            "name": "User sets the desired from and to years under Years",
+            "match": {},
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "status": "undefined"
+            },
+            "line": 20,
+            "name": "User selects the make of the car under Make, Model \u0026 Trim",
+            "match": {},
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "status": "undefined"
+            },
+            "line": 21,
+            "name": "User clicks on the Search button",
+            "match": {},
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "status": "undefined"
+            },
+            "comments": [
+              {
+                "line": 22,
+                "value": "#When Title of the Result page is BMW Convertibles for Sale in Alpharetta, GA 30004 - Autotrader"
+              }
+            ],
+            "line": 23,
+            "name": "Assert that user only sees BMW cars",
+            "match": {},
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "status": "undefined"
+            },
+            "line": 24,
+            "name": "log total number of cars",
+            "match": {},
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "status": "undefined"
+            },
+            "line": 25,
+            "name": "close the browser",
+            "match": {},
+            "keyword": "Then "
+          }
+        ]
+      }
+    ],
+    "name": "Autotrader Advanced Search",
+    "description": "",
+    "id": "autotrader-advanced-search",
+    "keyword": "Feature",
+    "uri": "C:/Users/sadab/eclipse-workspace/Autotrader_AS/src/main/java/FeatureFiles/autotrader.feature"
+  }
+]
